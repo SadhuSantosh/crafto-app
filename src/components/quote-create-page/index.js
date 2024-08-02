@@ -152,7 +152,7 @@ function CreateQuote() {
             autoFocus
           ></input>
           <label htmlFor="img" className="upload-button">
-            Choose a file &#127748;
+            Choose a Image &#127748;
           </label>
           <input
             type="file"
