@@ -14,14 +14,15 @@
     font-weight: bold;
     display:block;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
 }
 .auth-container{
     position:fixed;
-    right:250px;
-    width:250px;
+    right:200px;
+    width:300px;
     top:50%;
-    padding:20px;
+    padding: 40px 35px;
     background: white;
     transform: translateY(-50%);
     border-radius: 10px;
@@ -35,7 +36,7 @@
 }
 
 .auth-input{
-    margin-bottom:15px;
+    margin-bottom:25px;
     border:none;
     border-bottom: 0.5px solid #514ba2;
     width: 100%;
@@ -62,7 +63,7 @@
 .auth-login-user{
     background: #514ba2;
     color: white;
-    padding:10px 15px; 
+    padding:15px; 
     border-radius: 30px;
     border:none;
     cursor:pointer;
@@ -71,6 +72,7 @@
     margin-top:25px;
     font-weight: bold;
     width:100%;
+    font-size: 16px;
 }
 
 .login-disable{
@@ -119,9 +121,11 @@
     }
 
     .auth-container{
+        width:280px;
         top:100px;
         transform: translateX(50%);
         right:50%;
+        padding: 40px 25px;
     }
 }
 
