@@ -1,6 +1,7 @@
 # Getting Started with Crafto App
 
-Clone the repository, check out the project branch(cd /crafto-app)
+Clone the repository, check out the project folder
+### `cd /crafto-app`
 
 To Install Dependencies run the below command:
 ### `npm install`
